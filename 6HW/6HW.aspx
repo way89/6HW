@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:TextBox ID="tb_Name" runat="server" Visible="False"></asp:TextBox>
+            <asp:Button ID="btn_Del" runat="server" Text="刪除"  Visible="False" OnClick="btn_Del_Click"/><br />
+            <asp:Label ID="lb_Msg" runat="server"></asp:Label>
         </div>
     </form>
 </body>
