@@ -8,7 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 
 namespace _6HW
-{
+{ 
     public partial class _6HW : System.Web.UI.Page
     {
 
